@@ -1,13 +1,10 @@
 package com.insomdev.models;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.Indexed;
 
 public class Weapon {
-    @Id
-    private String id;
 
-    @Indexed(unique=true, dropDups=true)
+    @Id
     private String weaponName;
     private int ammo;
     private int energyConsumption;
