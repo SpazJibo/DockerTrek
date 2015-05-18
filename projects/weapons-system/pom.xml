@@ -4,8 +4,8 @@
         http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <modelVersion>4.0.0</modelVersion>
 
-        <groupId>org.springframework</groupId>
-        <artifactId>gs-accessing-data-mongodb</artifactId>
+        <groupId>com.insomdev</groupId>
+        <artifactId>corvus-weapon-system</artifactId>
         <version>0.1.0</version>
 
         <parent>
@@ -15,6 +15,10 @@
         </parent>
 
         <dependencies>
+                <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-data-rest</artifactId>
+                </dependency>
                 <dependency>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -39,6 +43,7 @@
                         <url>https://repo.spring.io/libs-release</url>
                 </repository>
         </repositories>
+        
         <pluginRepositories>
                 <pluginRepository>
                         <id>spring-releases</id>
