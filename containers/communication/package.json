@@ -1,0 +1,9 @@
+{
+  "name": "corvus-communication",
+  "version": "0.0.1",
+  "description": "Socket.io Chat server",
+  "dependencies": {
+    "express": "^4.12.4",
+    "socket.io": "^1.3.5"
+  }
+}
