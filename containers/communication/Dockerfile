@@ -1,3 +1,3 @@
 FROM node:latest
-COPY .
+COPY . /
 CMD["node", "index.js"]
