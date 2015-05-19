@@ -5,6 +5,7 @@ import org.springframework.data.annotation.Id;
 public class Weapon {
 
     @Id
+    private String id;
     private String weaponName;
     private int ammo;
     private int energyConsumption;

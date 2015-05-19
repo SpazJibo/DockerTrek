@@ -1,0 +1,4 @@
+com/insomdev/Application.class
+com/insomdev/repository/WeaponRepository.class
+com/insomdev/models/Weapon.class
+com/insomdev/SimpleCORSFilter.class
