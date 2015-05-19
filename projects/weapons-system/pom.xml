@@ -23,23 +23,27 @@
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-starter-data-mongodb</artifactId>
                 </dependency>
-        </dependencies>
+                <dependency>
+                       <groupId>org.springframework</groupId>
+                       <artifactId>spring-beans</artifactId>
+               </dependency>
+       </dependencies>
 
 
-        <build>
-                <plugins>
-                        <plugin>
-                                <groupId>org.springframework.boot</groupId>
-                                <artifactId>spring-boot-maven-plugin</artifactId>
-                        </plugin>
-                </plugins>
-        </build>
+       <build>
+        <plugins>
+                <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+        </plugins>
+</build>
 
-        <repositories>
-                <repository>
-                        <id>spring-releases</id>
-                        <name>Spring
-                                Releases</name>
+<repositories>
+        <repository>
+                <id>spring-releases</id>
+                <name>Spring
+                        Releases</name>
                         <url>https://repo.spring.io/libs-release</url>
                 </repository>
         </repositories>
@@ -49,7 +53,7 @@
                         <id>spring-releases</id>
                         <name>Spring
                                 Releases</name>
-                        <url>https://repo.spring.io/libs-release</url>
-                </pluginRepository>
-        </pluginRepositories>
-</project>
+                                <url>https://repo.spring.io/libs-release</url>
+                        </pluginRepository>
+                </pluginRepositories>
+        </project>
